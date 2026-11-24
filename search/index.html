@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="image.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a>
+    </nav>
+
+    <main class="search-page">
+        <h1 class="logo" aria-label="Google"><span class="b">G</span><span class="r">o</span><span class="y">o</span><span class="b">g</span><span class="g">l</span><span class="r">e</span></h1>
+
+        <form class="search-form" action="https://www.google.com/search" method="get">
+            <input class="search-bar" type="search" name="q" autofocus autocomplete="off" aria-label="Search Google">
+            <div class="buttons">
+                <input class="btn" type="submit" value="Google Search">
+                <!-- Mismo formulario: el parámetro btnI hace que Google redirija al primer resultado -->
+                <input class="btn" type="submit" name="btnI" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
